@@ -57,6 +57,35 @@ export default function Home() {
           </div>
         </section>
 
+        {/* MilkyBrain */}
+        <section>
+          <p className="text-xs tracking-[0.3em] uppercase opacity-40 mb-6">
+            MilkyBrain
+          </p>
+          <div className="space-y-5">
+            <ProjectRow
+              name="Pino"
+              description="Fact-checker"
+            />
+            <ProjectRow
+              name="SimpleWords"
+              description="Language tool"
+            />
+            <ProjectRow
+              name="PodCheck"
+              description="Podcast verification"
+            />
+            <ProjectRow
+              name="TalkToMe"
+              description="Conversational AI"
+            />
+            <ProjectRow
+              name="WonderCat"
+              description="Remotion video generation"
+            />
+          </div>
+        </section>
+
         {/* Builds */}
         <section>
           <p className="text-xs tracking-[0.3em] uppercase opacity-40 mb-6">
